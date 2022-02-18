@@ -1,6 +1,7 @@
 public class Main{
     public static void main (String [] args){
         memory coba = new memory();
+        //Memasukkan data ke dalam objek
         coba.setBrand("Sumsang");
         coba.setCuda("gk tau");
         coba.setFrequency("3000 Mhz");
@@ -8,6 +9,7 @@ public class Main{
         coba.setModel("bebas");
         coba.setId("66666");
         coba.setPrice(200000);
+        //menampilkan isi dari objek
         System.out.println(coba.getBrand());
         System.out.println(coba.getModel());
         System.out.println(coba.getSize());
